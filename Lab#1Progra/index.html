@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Harold Avila - Full Stack Developer">
+    <meta name="author" content="Harold Avila">
+    <title>Harold Avila | Full Stack Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:3
+    wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Harold Avila</a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#skills" class="nav__link">Skills</a></li>
+                    <li><a href="#projects" class="nav__link">Projects</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <button class="language-toggle" id="language-toggle">
+                    <svg class="language-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <line x1="2" y1="12" x2="22" y2="12"/>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                    </svg>
+                    <span class="language-text" data-en="EN" data-es="ES">EN</span>
+                </button>
+                <div class="nav__toggle" id="nav-toggle">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"/>
+                        <line x1="3" y1="6" x2="21" y2="6"/>
+                        <line x1="3" y1="18" x2="21" y2="18"/>
+                    </svg>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home section" id="home">
+            <div class="home__container container">
+                <div class="home__content">
+                    <h1 class="home__title">
+                        <span class="home__title-small" data-en="Hi, I'm Harold Avila" data-es="Hola, soy Harold Avila">Hi, I'm Harold Avila</span>
+                        <span class="home__title-main" data-en="Full Stack Developer" data-es="Desarrollador Full Stack">Full Stack Developer</span>
+                    </h1>
+                    <p class="home__description" data-en="I build modern web applications using React, Node.js and cloud technologies. Specialized in scalable architecture and high-performance systems." data-es="Construyo aplicaciones web modernas usando React, Node.js y tecnologías cloud. Especializado en arquitectura escalable y sistemas de alto rendimiento.">I build modern web applications using React, Node.js and cloud technologies. Specialized in scalable architecture and high-performance systems.</p>
+                    <div class="home__buttons">
+                        <a href="#projects" class="button button__primary" data-en="View Projects" data-es="Ver Proyectos">View Projects</a>
+                        <a href="#contact" class="button button__secondary" data-en="Contact Me" data-es="Contáctame">Contact Me</a>
+                    </div>
+                </div>
+                <div class="home__image">
+                    <img src="images/profile.png" alt="Harold Avila" class="home__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about__container container">
+                <div class="section__header">
+                    <h2 class="section__title" data-en="About Me" data-es="Sobre Mí">About Me</h2>
+                    <div class="section__divider"></div>
+                </div>
+
+                <div class="about__content">
+                    <div class="about__text">
+                        <p class="about__description" data-en="I am a Systems Engineering student passionate about web development and scalable software systems." data-es="Soy estudiante de Ingeniería en Sistemas apasionado por el desarrollo web y los sistemas de software escalables.">I am a <strong>Systems Engineering student</strong> passionate about <strong>web development and scalable software systems.</strong></p>
+                        <p class="about__description" data-en="I enjoy building full stack applications and learning modern technologies used in the industry. My focus is on creating efficient, maintainable solutions that solve real-world problems." data-es="Disfruto construir aplicaciones full stack y aprender tecnologías modernas usadas en la industria. Mi enfoque está en crear soluciones eficientes y mantenibles que resuelvan problemas del mundo real.">I enjoy building full stack applications and learning <strong>modern technologies used in the industry.</strong> My focus is on creating efficient, maintainable solutions that solve real-world problems.</p>
+                        <p class="about__description" data-en="With expertise in modern web technologies and cloud infrastructure, I'm constantly exploring new tools and best practices to deliver high-quality software." data-es="Con experiencia en tecnologías web modernas e infraestructura cloud, estoy constantemente explorando nuevas herramientas y mejores prácticas para entregar software de alta calidad.">With expertise in modern web technologies and cloud infrastructure, I'm constantly exploring new tools and best practices to deliver high-quality software.</p>
+                    </div>
+                    
+                    <div class="about__stats">
+                        <div class="about__stat-item">
+                            <span class="about__stat-number">5+</span>
+                            <span class="about__stat-label" data-en="Technologies" data-es="Tecnologías">Technologies</span>
+                        </div>
+                        <div class="about__stat-item">
+                            <span class="about__stat-number">100%</span>
+                            <span class="about__stat-label" data-en="Commitment" data-es="Compromiso">Commitment</span>
+                        </div>
+                        <div class="about__stat-item">
+                            <span class="about__stat-number">∞</span>
+                            <span class="about__stat-label" data-en="Learning" data-es="Aprendizaje">Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <div class="skills__container container">
+                <div class="section__header">
+                    <h2 class="section__title" data-en="Skills" data-es="Habilidades">Skills</h2>
+                    <div class="section__divider"></div>
+                    <p class="section__subtitle" data-en="Technologies and tools I work with" data-es="Tecnologías y herramientas con las que trabajo">Technologies and tools I work with</p>
+                </div>
+
+                <div class="skills__content">
+                    <div class="skills__category">
+                        <div class="skills__category-header">
+                            <svg class="skills__category-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="16 18 22 12 16 6"/>
+                                <polyline points="8 6 2 12 8 18"/>
+                            </svg>
+                            <h3 class="skills__category-title">Frontend</h3>
+                        </div>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <span class="skills__name">HTML5</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 95%"></div>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__name">CSS3</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 90%"></div>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__name">JavaScript</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 85%"></div>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__name">React</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 80%"></div>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__name">Next.js</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 75%"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skills__category">
+                        <div class="skills__category-header">
+                            <svg class="skills__category-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"/>
+                                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"/>
+                                <line x1="6" y1="6" x2="6.01" y2="6"/>
+                                <line x1="6" y1="18" x2="6.01" y2="18"/>
+                            </svg>
+                            <h3 class="skills__category-title">Backend & Languages</h3>
+                        </div>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <span class="skills__name">C++</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 80%"></div>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__name">Python</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 75%"></div>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__name">Java</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 70%"></div>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__name">Node.js</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 85%"></div>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__name">REST APIs</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 85%"></div>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__name">Databases</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 75%"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skills__category">
+                        <div class="skills__category-header">
+                            <svg class="skills__category-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                            </svg>
+                            <h3 class="skills__category-title">Tools & Cloud</h3>
+                        </div>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <span class="skills__name">Git</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 85%"></div>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__name">Docker</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 70%"></div>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__name">AWS</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 75%"></div>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <span class="skills__name">Figma</span>
+                                <div class="skills__bar">
+                                    <div class="skills__progress" style="--progress: 80%"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <div class="projects__container container">
+                <div class="section__header">
+                    <h2 class="section__title" data-en="Projects" data-es="Proyectos">Projects</h2>
+                    <div class="section__divider"></div>
+                    <p class="section__subtitle" data-en="Web applications showcasing my technical skills" data-es="Aplicaciones web que demuestran mis habilidades técnicas">Web applications showcasing my technical skills</p>
+                </div>
+
+                <div class="projects__grid">
+                    <article class="project__card">
+                        <div class="project__image">
+                            <div class="project__placeholder">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                    <polyline points="9 22 9 12 15 12 15 22"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Task Management System</h3>
+                            <p class="project__description">Web application to manage tasks built with React and Node.js. Features real-time updates and user authentication.</p>
+                            <div class="project__tags">
+                                <span class="project__tag">React</span>
+                                <span class="project__tag">Node.js</span>
+                                <span class="project__tag">MongoDB</span>
+                            </div>
+                            <div class="project__links">
+                                <a href="#" class="project__link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                        <polyline points="15 3 21 3 21 9"/>
+                                        <line x1="10" y1="14" x2="21" y2="3"/>
+                                    </svg>
+                                    <span>Live Demo</span>
+                                </a>
+                                <a href="#" class="project__link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                    </svg>
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project__card">
+                        <div class="project__image">
+                            <div class="project__placeholder">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                                    <line x1="12" y1="22.08" x2="12" y2="12"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">E-commerce Platform</h3>
+                            <p class="project__description">Full-stack e-commerce solution with shopping cart, payment integration, and admin dashboard for product management.</p>
+                            <div class="project__tags">
+                                <span class="project__tag">Next.js</span>
+                                <span class="project__tag">TypeScript</span>
+                                <span class="project__tag">Stripe</span>
+                            </div>
+                            <div class="project__links">
+                                <a href="#" class="project__link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                        <polyline points="15 3 21 3 21 9"/>
+                                        <line x1="10" y1="14" x2="21" y2="3"/>
+                                    </svg>
+                                    <span>Live Demo</span>
+                                </a>
+                                <a href="#" class="project__link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                    </svg>
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="project__card">
+                        <div class="project__image">
+                            <div class="project__placeholder">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Real-time Chat Application</h3>
+                            <p class="project__description">WebSocket-based chat application with rooms, private messaging, and message history stored in the database.</p>
+                            <div class="project__tags">
+                                <span class="project__tag">React</span>
+                                <span class="project__tag">Socket.io</span>
+                                <span class="project__tag">Express</span>
+                            </div>
+                            <div class="project__links">
+                                <a href="#" class="project__link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                        <polyline points="15 3 21 3 21 9"/>
+                                        <line x1="10" y1="14" x2="21" y2="3"/>
+                                    </svg>
+                                    <span>Live Demo</span>
+                                </a>
+                                <a href="#" class="project__link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                    </svg>
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="project__card">
+                        <div class="project__image">
+                            <div class="project__placeholder">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                    <polyline points="14 2 14 8 20 8"/>
+                                    <line x1="16" y1="13" x2="8" y2="13"/>
+                                    <line x1="16" y1="17" x2="8" y2="17"/>
+                                    <polyline points="10 9 9 9 8 9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">API REST Service</h3>
+                            <p class="project__description">RESTful API with authentication, CRUD operations, data validation, and comprehensive documentation using Swagger.</p>
+                            <div class="project__tags">
+                                <span class="project__tag">Node.js</span>
+                                <span class="project__tag">PostgreSQL</span>
+                                <span class="project__tag">Docker</span>
+                            </div>
+                            <div class="project__links">
+                                <a href="#" class="project__link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                        <polyline points="15 3 21 3 21 9"/>
+                                        <line x1="10" y1="14" x2="21" y2="3"/>
+                                    </svg>
+                                    <span>Live Demo</span>
+                                </a>
+                                <a href="#" class="project__link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                    </svg>
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="project__card">
+                        <div class="project__image">
+                            <div class="project__placeholder">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="3" width="7" height="7"/>
+                                    <rect x="14" y="3" width="7" height="7"/>
+                                    <rect x="14" y="14" width="7" height="7"/>
+                                    <rect x="3" y="14" width="7" height="7"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Dashboard Analytics</h3>
+                            <p class="project__description">Interactive analytics dashboard with real-time data visualization, charts, and reporting features for business metrics.</p>
+                            <div class="project__tags">
+                                <span class="project__tag">React</span>
+                                <span class="project__tag">D3.js</span>
+                                <span class="project__tag">AWS</span>
+                            </div>
+                            <div class="project__links">
+                                <a href="#" class="project__link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                        <polyline points="15 3 21 3 21 9"/>
+                                        <line x1="10" y1="14" x2="21" y2="3"/>
+                                    </svg>
+                                    <span>Live Demo</span>
+                                </a>
+                                <a href="#" class="project__link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                    </svg>
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="project__card">
+                        <div class="project__image">
+                            <div class="project__placeholder">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
+                                    <line x1="7" y1="7" x2="7.01" y2="7"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Weather App</h3>
+                            <p class="project__description">Modern weather application with location-based forecasts, interactive maps, and detailed weather information.</p>
+                            <div class="project__tags">
+                                <span class="project__tag">JavaScript</span>
+                                <span class="project__tag">API REST</span>
+                                <span class="project__tag">CSS3</span>
+                            </div>
+                            <div class="project__links">
+                                <a href="#" class="project__link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                        <polyline points="15 3 21 3 21 9"/>
+                                        <line x1="10" y1="14" x2="21" y2="3"/>
+                                    </svg>
+                                    <span>Live Demo</span>
+                                </a>
+                                <a href="#" class="project__link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                    </svg>
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="contact__container container">
+                <div class="section__header">
+                    <h2 class="section__title" data-en="Contact" data-es="Contacto">Contact</h2>
+                    <div class="section__divider"></div>
+                    <p class="section__subtitle" data-en="Let's work together on your next project" data-es="Trabajemos juntos en tu próximo proyecto">Let's work together on your next project</p>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <div class="contact__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact__data">
+                                <h3 class="contact__title">Email</h3>
+                                <a href="mailto:harolah26@gmail.com" class="contact__link">harolah26@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact__card">
+                            <div class="contact__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                    <rect x="2" y="9" width="4" height="12"/>
+                                    <circle cx="4" cy="4" r="2"/>
+                                </svg>
+                            </div>
+                            <div class="contact__data">
+                                <h3 class="contact__title">LinkedIn</h3>
+                                <a href="https://www.linkedin.com/in/harold-avila-b177143b4" target="_blank" rel="noopener noreferrer" class="contact__link">linkedin.com/in/harold-avila-b177143b4</a>
+                            </div>
+                        </div>
+
+                        <div class="contact__card">
+                            <div class="contact__icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                </svg>
+                            </div>
+                            <div class="contact__data">
+                                <h3 class="contact__title">GitHub</h3>
+                                <a href="https://github.com/HaroldAH" target="_blank" rel="noopener noreferrer" class="contact__link">github.com/HaroldAH</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact__form" id="contact-form">
+                        <div class="contact__form-group">
+                            <label for="name" class="contact__label" data-en="Name" data-es="Nombre">Name</label>
+                            <input type="text" id="name" name="name" class="contact__input" required data-placeholder-en="Your name" data-placeholder-es="Tu nombre" placeholder="Your name">
+                        </div>
+
+                        <div class="contact__form-group">
+                            <label for="email" class="contact__label" data-en="Email" data-es="Correo">Email</label>
+                            <input type="email" id="email" name="email" class="contact__input" required data-placeholder-en="your.email@example.com" data-placeholder-es="tu.correo@ejemplo.com" placeholder="your.email@example.com">
+                        </div>
+
+                        <div class="contact__form-group">
+                            <label for="message" class="contact__label" data-en="Message" data-es="Mensaje">Message</label>
+                            <textarea id="message" name="message" rows="5" class="contact__input contact__textarea" required data-placeholder-en="Tell me about your project..." data-placeholder-es="Cuéntame sobre tu proyecto..." placeholder="Tell me about your project..."></textarea>
+                        </div>
+
+                        <button type="submit" class="button button__primary contact__button" data-en="Send Message" data-es="Enviar Mensaje">
+                            Send Message
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"/>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <h3 class="footer__title">Harold Avila</h3>
+                    <p class="footer__description">Full Stack Developer</p>
+                </div>
+
+                <div class="footer__social">
+                    <a href="https://github.com/HaroldAH" target="_blank" rel="noopener noreferrer" class="footer__social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/harold-avila-b177143b4" target="_blank" rel="noopener noreferrer" class="footer__social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect x="2" y="9" width="4" height="12"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:harolah26@gmail.com" class="footer__social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2026 Harold Avila. Full Stack Developer
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home" class="scrolltop" id="scroll-top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"/>
+        </svg>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
