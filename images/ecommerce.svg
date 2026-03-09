@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#bg)" rx="12"/>
+  <!-- Browser frame -->
+  <rect x="60" y="45" width="480" height="250" rx="10" fill="rgba(255,255,255,0.12)"/>
+  <rect x="60" y="45" width="480" height="40" rx="10" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="88" cy="65" r="7" fill="#ff5f57"/>
+  <circle cx="112" cy="65" r="7" fill="#febc2e"/>
+  <circle cx="136" cy="65" r="7" fill="#28c840"/>
+  <rect x="160" y="55" width="280" height="20" rx="10" fill="rgba(255,255,255,0.2)"/>
+  <text x="300" y="69" font-family="Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.8)" text-anchor="middle">shop.example.com</text>
+  <!-- Nav -->
+  <rect x="60" y="85" width="480" height="36" fill="rgba(255,255,255,0.15)"/>
+  <text x="90" y="108" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white">ShopNow</text>
+  <text x="250" y="108" font-family="Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.8)">Home</text>
+  <text x="300" y="108" font-family="Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.8)">Products</text>
+  <text x="360" y="108" font-family="Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.8)">Cart (3)</text>
+  <!-- Product cards -->
+  <rect x="80" y="135" width="120" height="140" rx="8" fill="rgba(255,255,255,0.15)"/>
+  <rect x="90" y="145" width="100" height="70" rx="6" fill="rgba(255,255,255,0.2)"/>
+  <text x="140" y="186" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle">👟</text>
+  <text x="140" y="232" font-family="Arial,sans-serif" font-size="11" fill="white" text-anchor="middle">Sneakers</text>
+  <text x="140" y="248" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#fde68a" text-anchor="middle">$89.99</text>
+  <rect x="90" y="258" width="100" height="10" rx="5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="220" y="135" width="120" height="140" rx="8" fill="rgba(255,255,255,0.15)"/>
+  <rect x="230" y="145" width="100" height="70" rx="6" fill="rgba(255,255,255,0.2)"/>
+  <text x="280" y="186" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle">🎧</text>
+  <text x="280" y="232" font-family="Arial,sans-serif" font-size="11" fill="white" text-anchor="middle">Headphones</text>
+  <text x="280" y="248" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#fde68a" text-anchor="middle">$129.99</text>
+  <rect x="230" y="258" width="100" height="10" rx="5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="360" y="135" width="120" height="140" rx="8" fill="rgba(255,255,255,0.15)"/>
+  <rect x="370" y="145" width="100" height="70" rx="6" fill="rgba(255,255,255,0.2)"/>
+  <text x="420" y="186" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle">⌚</text>
+  <text x="420" y="232" font-family="Arial,sans-serif" font-size="11" fill="white" text-anchor="middle">Smart Watch</text>
+  <text x="420" y="248" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#fde68a" text-anchor="middle">$199.99</text>
+  <rect x="370" y="258" width="100" height="10" rx="5" fill="rgba(255,255,255,0.3)"/>
+</svg>

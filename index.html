@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portafolio de Harold Avila - Full Stack Developer">
     <meta name="author" content="Harold Avila">
+    <meta property="og:title" content="Harold Avila | Full Stack Developer">
+    <meta property="og:description" content="Portafolio profesional de Harold Avila - Full Stack Developer especializado en React, Node.js y cloud.">
+    <meta property="og:url" content="https://haroldah.github.io/Laboratorio_ProgralV_3_Portafolio/">
+    <meta property="og:type" content="website">
     <title>Harold Avila | Full Stack Developer</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:3
-    wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header" id="header">
@@ -23,7 +27,7 @@
                     <li><a href="#projects" class="nav__link">Projects</a></li>
                     <li><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
-                <div class="nav__close" id="nav-close">
+                <div class="nav__close" id="nav-close" aria-label="Cerrar menú" role="button">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <line x1="18" y1="6" x2="6" y2="18"/>
                         <line x1="6" y1="6" x2="18" y2="18"/>
@@ -32,7 +36,7 @@
             </div>
 
             <div class="nav__actions">
-                <button class="language-toggle" id="language-toggle">
+                <button class="language-toggle" id="language-toggle" aria-label="Cambiar idioma">
                     <svg class="language-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <circle cx="12" cy="12" r="10"/>
                         <line x1="2" y1="12" x2="22" y2="12"/>
@@ -40,7 +44,7 @@
                     </svg>
                     <span class="language-text" data-en="EN" data-es="ES">EN</span>
                 </button>
-                <div class="nav__toggle" id="nav-toggle">
+                <div class="nav__toggle" id="nav-toggle" aria-label="Abrir menú" role="button">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <line x1="3" y1="12" x2="21" y2="12"/>
                         <line x1="3" y1="6" x2="21" y2="6"/>
@@ -251,15 +255,10 @@
                 </div>
 
                 <div class="projects__grid">
-                    <article class="project__card">
-                        <div class="project__image">
-                            <div class="project__placeholder">
-                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                                    <polyline points="9 22 9 12 15 12 15 22"/>
-                                </svg>
+                        <article class="project__card">
+                            <div class="project__image">
+                                <img src="images/task-management.svg" alt="Task Management System" class="project__img">
                             </div>
-                        </div>
                         <div class="project__content">
                             <h3 class="project__title">Task Management System</h3>
                             <p class="project__description">Web application to manage tasks built with React and Node.js. Features real-time updates and user authentication.</p>
@@ -269,15 +268,7 @@
                                 <span class="project__tag">MongoDB</span>
                             </div>
                             <div class="project__links">
-                                <a href="#" class="project__link">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-                                        <polyline points="15 3 21 3 21 9"/>
-                                        <line x1="10" y1="14" x2="21" y2="3"/>
-                                    </svg>
-                                    <span>Live Demo</span>
-                                </a>
-                                <a href="#" class="project__link">
+                                <a href="https://github.com/HaroldAH" target="_blank" rel="noopener noreferrer" class="project__link">
                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
                                     </svg>
@@ -289,13 +280,7 @@
 
                     <article class="project__card">
                         <div class="project__image">
-                            <div class="project__placeholder">
-                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
-                                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
-                                    <line x1="12" y1="22.08" x2="12" y2="12"/>
-                                </svg>
-                            </div>
+                            <img src="images/ecommerce.svg" alt="E-commerce Platform" class="project__img">
                         </div>
                         <div class="project__content">
                             <h3 class="project__title">E-commerce Platform</h3>
@@ -306,15 +291,7 @@
                                 <span class="project__tag">Stripe</span>
                             </div>
                             <div class="project__links">
-                                <a href="#" class="project__link">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-                                        <polyline points="15 3 21 3 21 9"/>
-                                        <line x1="10" y1="14" x2="21" y2="3"/>
-                                    </svg>
-                                    <span>Live Demo</span>
-                                </a>
-                                <a href="#" class="project__link">
+                                <a href="https://github.com/HaroldAH" target="_blank" rel="noopener noreferrer" class="project__link">
                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
                                     </svg>
@@ -327,12 +304,7 @@
 
                     <article class="project__card">
                         <div class="project__image">
-                            <div class="project__placeholder">
-                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <circle cx="12" cy="12" r="10"/>
-                                    <polyline points="12 6 12 12 16 14"/>
-                                </svg>
-                            </div>
+                            <img src="images/chat-app.svg" alt="Real-time Chat Application" class="project__img">
                         </div>
                         <div class="project__content">
                             <h3 class="project__title">Real-time Chat Application</h3>
@@ -343,15 +315,7 @@
                                 <span class="project__tag">Express</span>
                             </div>
                             <div class="project__links">
-                                <a href="#" class="project__link">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-                                        <polyline points="15 3 21 3 21 9"/>
-                                        <line x1="10" y1="14" x2="21" y2="3"/>
-                                    </svg>
-                                    <span>Live Demo</span>
-                                </a>
-                                <a href="#" class="project__link">
+                                <a href="https://github.com/HaroldAH" target="_blank" rel="noopener noreferrer" class="project__link">
                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
                                     </svg>
@@ -364,15 +328,7 @@
 
                     <article class="project__card">
                         <div class="project__image">
-                            <div class="project__placeholder">
-                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                                    <polyline points="14 2 14 8 20 8"/>
-                                    <line x1="16" y1="13" x2="8" y2="13"/>
-                                    <line x1="16" y1="17" x2="8" y2="17"/>
-                                    <polyline points="10 9 9 9 8 9"/>
-                                </svg>
-                            </div>
+                            <img src="images/api-rest.svg" alt="API REST Service" class="project__img">
                         </div>
                         <div class="project__content">
                             <h3 class="project__title">API REST Service</h3>
@@ -383,15 +339,7 @@
                                 <span class="project__tag">Docker</span>
                             </div>
                             <div class="project__links">
-                                <a href="#" class="project__link">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-                                        <polyline points="15 3 21 3 21 9"/>
-                                        <line x1="10" y1="14" x2="21" y2="3"/>
-                                    </svg>
-                                    <span>Live Demo</span>
-                                </a>
-                                <a href="#" class="project__link">
+                                <a href="https://github.com/HaroldAH" target="_blank" rel="noopener noreferrer" class="project__link">
                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
                                     </svg>
@@ -404,14 +352,7 @@
 
                     <article class="project__card">
                         <div class="project__image">
-                            <div class="project__placeholder">
-                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <rect x="3" y="3" width="7" height="7"/>
-                                    <rect x="14" y="3" width="7" height="7"/>
-                                    <rect x="14" y="14" width="7" height="7"/>
-                                    <rect x="3" y="14" width="7" height="7"/>
-                                </svg>
-                            </div>
+                            <img src="images/dashboard.svg" alt="Dashboard Analytics" class="project__img">
                         </div>
                         <div class="project__content">
                             <h3 class="project__title">Dashboard Analytics</h3>
@@ -422,15 +363,7 @@
                                 <span class="project__tag">AWS</span>
                             </div>
                             <div class="project__links">
-                                <a href="#" class="project__link">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-                                        <polyline points="15 3 21 3 21 9"/>
-                                        <line x1="10" y1="14" x2="21" y2="3"/>
-                                    </svg>
-                                    <span>Live Demo</span>
-                                </a>
-                                <a href="#" class="project__link">
+                                <a href="https://github.com/HaroldAH" target="_blank" rel="noopener noreferrer" class="project__link">
                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
                                     </svg>
@@ -443,12 +376,7 @@
 
                     <article class="project__card">
                         <div class="project__image">
-                            <div class="project__placeholder">
-                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
-                                    <line x1="7" y1="7" x2="7.01" y2="7"/>
-                                </svg>
-                            </div>
+                            <img src="images/weather-app.svg" alt="Weather App" class="project__img">
                         </div>
                         <div class="project__content">
                             <h3 class="project__title">Weather App</h3>
@@ -459,15 +387,7 @@
                                 <span class="project__tag">CSS3</span>
                             </div>
                             <div class="project__links">
-                                <a href="#" class="project__link">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-                                        <polyline points="15 3 21 3 21 9"/>
-                                        <line x1="10" y1="14" x2="21" y2="3"/>
-                                    </svg>
-                                    <span>Live Demo</span>
-                                </a>
-                                <a href="#" class="project__link">
+                                <a href="https://github.com/HaroldAH" target="_blank" rel="noopener noreferrer" class="project__link">
                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
                                     </svg>
@@ -530,7 +450,10 @@
                         </div>
                     </div>
 
-                    <form class="contact__form" id="contact-form">
+                    <form class="contact__form" id="contact-form" action="https://formsubmit.co/harolah26@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="Nuevo mensaje del portafolio">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
                         <div class="contact__form-group">
                             <label for="name" class="contact__label" data-en="Name" data-es="Nombre">Name</label>
                             <input type="text" id="name" name="name" class="contact__input" required data-placeholder-en="Your name" data-placeholder-es="Tu nombre" placeholder="Your name">
@@ -566,6 +489,14 @@
                     <h3 class="footer__title">Harold Avila</h3>
                     <p class="footer__description">Full Stack Developer</p>
                 </div>
+
+                <nav class="footer__nav" aria-label="Navegación rápida">
+                    <a href="#home" class="footer__nav-link">Home</a>
+                    <a href="#about" class="footer__nav-link">About</a>
+                    <a href="#skills" class="footer__nav-link">Skills</a>
+                    <a href="#projects" class="footer__nav-link">Projects</a>
+                    <a href="#contact" class="footer__nav-link">Contact</a>
+                </nav>
 
                 <div class="footer__social">
                     <a href="https://github.com/HaroldAH" target="_blank" rel="noopener noreferrer" class="footer__social-link">

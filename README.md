@@ -1,5 +1,17 @@
 # Portafolio Profesional – Full Stack Developer
 
+## 🔗 Enlaces
+
+| | |
+|---|---|
+| 🌐 **Sitio en vivo** | [haroldah.github.io/Laboratorio_ProgralV_3_Portafolio](https://haroldah.github.io/Laboratorio_ProgralV_3_Portafolio/) |
+| 💻 **Repositorio GitHub** | [github.com/HaroldAH/Laboratorio_ProgralV_3_Portafolio](https://github.com/HaroldAH/Laboratorio_ProgralV_3_Portafolio) |
+| 🎨 **Prototipo Figma** | [Ver diseño en Figma](https://www.figma.com/design/E3WbjTN4l1I9hYTQ54N5hr/Prototipo-Figma?node-id=0-1&t=lYyY8XLF5klaudaI-1) |
+| 👤 **LinkedIn** | [linkedin.com/in/harold-avila-b177143b4](https://www.linkedin.com/in/harold-avila-b177143b4) |
+| 🐱 **GitHub Personal** | [github.com/HaroldAH](https://github.com/HaroldAH) |
+
+---
+
 **Universidad Nacional**  
 **Sede Regional Brunca**  
 **EIF209 – Programación IV**
@@ -289,27 +301,15 @@ El objetivo es que el sitio web no solo muestre habilidades técnicas, sino que 
 
 ---
 
-## Enlaces del Proyecto
+## Diferenciadores Clave
 
-### 🎨 Diseño en Figma
-**[Ver Prototipo en Figma](TU_ENLACE_DE_FIGMA_AQUI)**
+Con base en la investigación, se identificaron **2 diferenciadores principales** que distinguen este perfil frente a otros candidatos:
 
-El diseño fue creado en Figma siguiendo principios modernos de UI/UX:
-- Paleta de colores profesional (azul/morado oscuro)
-- Layout responsive (desktop y mobile)
-- Componentes reutilizables
-- Jerarquía visual clara
-- Diseño enfocado en la experiencia del usuario
+### 1. Fullstack con visión de arquitectura, no solo de interfaz
+La mayoría de ofertas (3 de 5) buscan perfiles que no solo construyan interfaces, sino que participen en el **diseño de arquitectura del sistema**, trabajen con sistemas distribuidos y tomen decisiones técnicas. El portafolio refleja esto mostrando proyectos que van más allá del frontend: APIs REST con Docker y PostgreSQL, integración con servicios cloud (AWS), y aplicaciones con backend real. El perfil presentado es el de un desarrollador que entiende el sistema completo, no solo su capa visual.
 
-### 🚀 Sitio Web Publicado
-**[Ver Portafolio en Vivo](TU_ENLACE_DE_GITHUB_PAGES_AQUI)**
-
-El sitio está desplegado en GitHub Pages y es completamente funcional.
-
-### 💻 Repositorio en GitHub
-**[Ver Código Fuente](TU_ENLACE_DEL_REPOSITORIO_AQUI)**
-
-El código fuente está disponible públicamente en GitHub con commits organizados y documentación completa.
+### 2. Stack alineado exactamente con la demanda del mercado costarricense
+El análisis reveló que **4 de 5 ofertas** solicitan simultáneamente Node.js, React/Next.js y TypeScript. Muchos perfiles en la región tienen uno o dos de estos, pero no los tres. El portafolio posiciona a Harold como alguien que domina ese stack completo y además suma conocimientos en cloud (AWS) y buenas prácticas (código limpio, responsive, accesibilidad), lo que cubre el criterio "nice to have" que aparece en varias ofertas.
 
 ---
 

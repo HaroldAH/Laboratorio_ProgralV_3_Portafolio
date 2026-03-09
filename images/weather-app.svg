@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0369a1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:0.25" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0.15" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#bg)" rx="12"/>
+  <!-- Clouds -->
+  <ellipse cx="120" cy="70" rx="50" ry="28" fill="rgba(255,255,255,0.15)"/>
+  <ellipse cx="155" cy="58" rx="38" ry="24" fill="rgba(255,255,255,0.12)"/>
+  <ellipse cx="480" cy="80" rx="40" ry="22" fill="rgba(255,255,255,0.1)"/>
+  <ellipse cx="510" cy="68" rx="30" ry="18" fill="rgba(255,255,255,0.08)"/>
+  <!-- Main card -->
+  <rect x="80" y="40" width="230" height="260" rx="16" fill="url(#card)"/>
+  <!-- Sun icon -->
+  <circle cx="195" cy="110" r="34" fill="rgba(253,224,71,0.4)"/>
+  <circle cx="195" cy="110" r="24" fill="#fde047"/>
+  <!-- Sun rays -->
+  <line x1="195" y1="70" x2="195" y2="62" stroke="#fde047" stroke-width="3" stroke-linecap="round"/>
+  <line x1="195" y1="150" x2="195" y2="158" stroke="#fde047" stroke-width="3" stroke-linecap="round"/>
+  <line x1="155" y1="110" x2="147" y2="110" stroke="#fde047" stroke-width="3" stroke-linecap="round"/>
+  <line x1="235" y1="110" x2="243" y2="110" stroke="#fde047" stroke-width="3" stroke-linecap="round"/>
+  <line x1="167" y1="82" x2="161" y2="76" stroke="#fde047" stroke-width="3" stroke-linecap="round"/>
+  <line x1="223" y1="138" x2="229" y2="144" stroke="#fde047" stroke-width="3" stroke-linecap="round"/>
+  <line x1="167" y1="138" x2="161" y2="144" stroke="#fde047" stroke-width="3" stroke-linecap="round"/>
+  <line x1="223" y1="82" x2="229" y2="76" stroke="#fde047" stroke-width="3" stroke-linecap="round"/>
+  <!-- Temperature -->
+  <text x="195" y="180" font-family="Arial,sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">28°C</text>
+  <text x="195" y="207" font-family="Arial,sans-serif" font-size="14" fill="rgba(255,255,255,0.85)" text-anchor="middle">Sunny · San José, CR</text>
+  <!-- Details -->
+  <text x="115" y="238" font-family="Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.7)" text-anchor="middle">💧 65%</text>
+  <text x="195" y="238" font-family="Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.7)" text-anchor="middle">🌬 14 km/h</text>
+  <text x="275" y="238" font-family="Arial,sans-serif" font-size="11" fill="rgba(255,255,255,0.7)" text-anchor="middle">👁 10 km</text>
+  <!-- Forecast row -->
+  <rect x="90" y="254" width="215" height="38" rx="8" fill="rgba(255,255,255,0.1)"/>
+  <text x="118" y="277" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.7)" text-anchor="middle">Mon ☀️ 29°</text>
+  <text x="161" y="277" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.7)" text-anchor="middle">Tue ⛅ 25°</text>
+  <text x="204" y="277" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.7)" text-anchor="middle">Wed 🌧 22°</text>
+  <text x="250" y="277" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.7)" text-anchor="middle">Thu ☀️ 27°</text>
+  <!-- Map panel -->
+  <rect x="330" y="40" width="210" height="260" rx="16" fill="url(#card)"/>
+  <rect x="340" y="55" width="190" height="130" rx="8" fill="rgba(255,255,255,0.12)"/>
+  <!-- Map grid lines -->
+  <line x1="340" y1="90" x2="530" y2="90" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="340" y1="120" x2="530" y2="120" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="340" y1="150" x2="530" y2="150" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="390" y1="55" x2="390" y2="185" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="440" y1="55" x2="440" y2="185" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="490" y1="55" x2="490" y2="185" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Pin -->
+  <circle cx="435" cy="112" r="12" fill="rgba(239,68,68,0.6)"/>
+  <circle cx="435" cy="112" r="6" fill="#ef4444"/>
+  <line x1="435" y1="118" x2="435" y2="130" stroke="#ef4444" stroke-width="2"/>
+  <text x="435" y="200" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Weather Map</text>
+  <text x="435" y="220" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.6)" text-anchor="middle">Interactive forecast</text>
+  <text x="435" y="250" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle">🌍</text>
+  <text x="435" y="280" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.5)" text-anchor="middle">Powered by OpenWeather API</text>
+</svg>
